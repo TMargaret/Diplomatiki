@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Elder
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Elder\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Elder()
+comment10.params=dialogue
+comment10.target=void\ setDialogue(boolean)
+comment11.params=forActive
+comment11.target=void\ setActive(boolean)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Elder\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=w
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment4.params=
+comment4.target=void\ blink()
+comment5.params=
+comment5.target=void\ addHiddenSprite()
+comment6.params=
+comment6.target=void\ elderDialogue()
+comment7.params=isItTalking
+comment7.target=void\ setTalking(boolean)
+comment8.params=
+comment8.target=boolean\ getTalking()
+comment9.params=
+comment9.target=boolean\ getDoneWithDialogue()
+numComments=12

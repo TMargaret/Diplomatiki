@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=mainHouseRoom
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ mainHouseRoom\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=mainHouseRoom()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ mainHouseRoom.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ prepare()
+comment3.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment4.params=
+comment4.target=void\ addWall()
+comment5.params=
+comment5.target=void\ enterRoomText()
+comment6.params=
+comment6.target=void\ exitRoom()
+comment7.params=
+comment7.target=HealthBar\ getHealthBar()
+comment8.params=
+comment8.target=void\ gameOver()
+numComments=9
