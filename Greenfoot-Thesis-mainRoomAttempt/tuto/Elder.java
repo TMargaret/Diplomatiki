@@ -61,7 +61,7 @@ public class Elder extends Actor
                     Actor a = things.get(i);
                     if(a instanceof HiddenSprite)        
                         continue;        
-                    if( a instanceof Robot) {  
+                    if( a instanceof Alex) {  
                         counter--;
                         if (Greenfoot.isKeyDown("e")){
                             isEDown = true;

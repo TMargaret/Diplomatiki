@@ -12,7 +12,7 @@ public class Level_1 extends World
     public int X_ROAD_HUT = 130;
     public int X_ROAD_HOUSE = 550;
     public int X_ROAD_HUT2 = 885;
-    private Robot robot;
+    private Alex alex;
     private mainHouse my_mainHouse;
     private ArrayList <Hut> hutList = new ArrayList<Hut>();
     HealthBar healthBar;
@@ -36,7 +36,7 @@ public class Level_1 extends World
                 found  = true;
             }
         }
-        robot.setCanMove(!found);
+        alex.setCanMove(!found);
     }
 
     /**
@@ -52,8 +52,8 @@ public class Level_1 extends World
         my_mainHouse = new mainHouse();
         addObject(my_mainHouse,506,303);
 
-        robot = new Robot();
-        addObject(robot,79,525);
+        alex = new Alex();
+        addObject(alex,79,525);
 
         healthBar = new HealthBar();
         addObject(healthBar, healthBar.getImage().getWidth(), healthBar.getImage().getHeight());

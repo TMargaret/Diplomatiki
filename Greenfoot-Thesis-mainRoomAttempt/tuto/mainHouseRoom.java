@@ -9,7 +9,7 @@ import java.util.ArrayList;  // (World, Actor, GreenfootImage, Greenfoot and Mou
  */
 public class mainHouseRoom extends World
 {
-    Robot robot;
+    Alex alex;
     Elder elder;
     Door door, door2;
     Lumber lumber, lumber2;
@@ -57,7 +57,7 @@ public class mainHouseRoom extends World
                 doNotMove  = true;
             }
         }
-        robot.setCanMove(!doNotMove);
+        alex.setCanMove(!doNotMove);
     }
 
     /**
@@ -85,8 +85,8 @@ public class mainHouseRoom extends World
 
         addWall();
 
-        robot = new Robot();
-        addObject(robot,80, 90);
+        alex = new Alex();
+        addObject(alex,80, 90);
 
         elder = new Elder();
         addObject(elder,900,500);
@@ -200,7 +200,7 @@ public class mainHouseRoom extends World
     }
 
     public void exitRoom(){
-        if (robot.isAtEdge()){
+        if (alex.isAtEdge()){
             counter--;
             if (!isActive){
                 textPanel = new TextPanel("exitRoom");

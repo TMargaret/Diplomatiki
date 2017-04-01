@@ -18,15 +18,15 @@ public class Hut extends Actor
      */
     public void act() 
     {
-        canSeeRobot();
+        canSeeAlex();
     } 
 
     public boolean getActive(){
         return displayMessage;
     }
 
-    public void canSeeRobot(){
-        if (isTouching(Robot.class))
+    public void canSeeAlex(){
+        if (isTouching(Alex.class))
         {
             counter--;
             if (counter<0 && !isActive){
@@ -43,7 +43,7 @@ public class Hut extends Actor
             displayMessage = false;
 
         }
-        if (!isTouching(Robot.class))
+        if (!isTouching(Alex.class))
         {
             isActive = false;
 

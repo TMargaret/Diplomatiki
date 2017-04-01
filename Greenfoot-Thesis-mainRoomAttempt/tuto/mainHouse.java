@@ -29,7 +29,7 @@ public class mainHouse extends Actor
      * shows a message before entering the house
      */
     public void enterInRoom(){
-        if (getOneIntersectingObject(Robot.class) != null){
+        if (getOneIntersectingObject(Alex.class) != null){
             counter--;
             if (!isActive){
                 textPanel = new TextPanel("enteringRoom");
