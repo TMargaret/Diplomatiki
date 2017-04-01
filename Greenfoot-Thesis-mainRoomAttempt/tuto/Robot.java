@@ -7,10 +7,20 @@ import java.util.List; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Robot extends SmoothMover
-{
+public class Robot extends SpriteSheet{
     private Level_1 myworld;
     private boolean canMove = true, isMoving = false;
+    String getKey = "";
+
+    int img_cell = 32;
+    int img = 0;
+    GreenfootImage alex = new GreenfootImage("alex.png");
+    final int IMG_WIDTH = alex.getWidth()/6;
+    final int IMG_HEIGHT = alex.getHeight()/4;
+    
+    public Robot(){
+        setImage(getSprite(alex, 0, 0, 32, 32, IMG_WIDTH, IMG_HEIGHT));
+    }
 
     /**
      * Act - do whatever the Robot wants to do. This method is called whenever
@@ -21,7 +31,7 @@ public class Robot extends SmoothMover
 
         move(5);  
 
-    } 
+    }
 
     public void setCanMove(boolean moveStatus){
         canMove = moveStatus;
@@ -42,6 +52,9 @@ public class Robot extends SmoothMover
         if (Greenfoot.isKeyDown("right")) {
             dx += 1;
             isMoving = true;
+            getKey = "right";
+            animation();
+            
         }
         if (Greenfoot.isKeyDown("left")) {
             dx -= 1;
@@ -81,6 +94,15 @@ public class Robot extends SmoothMover
             }
         }
         //isMoving = false;
+    }
+    
+    public void animation(){
+        if (getKey == "right"){
+            for (int i = 0; i < alex.getWidth())
+            setImage(getSprite(alex, img,  img_cell*2, img_cell, img_cell*3, IMG_WIDTH, IMG_HEIGHT));
+            setImage(getSprite(alex, img_cell,  img_cell*2, img_cell*2, img_cell*3, IMG_WIDTH, IMG_HEIGHT));
+            //setImage(getSprite(alex, img_cell*2,  img_cell*2, img_cell, img_cell*3, IMG_WIDTH, IMG_HEIGHT));
+        }
     }
 
     /**
