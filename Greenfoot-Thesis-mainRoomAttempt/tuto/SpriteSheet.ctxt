@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SpriteSheet
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ SpriteSheet\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=spriteSheet\ topLeftX\ topLeftY\ bottomRightX\ bottomRightY\ width\ height
+comment1.target=greenfoot.GreenfootImage\ getSprite(greenfoot.GreenfootImage,\ int,\ int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ The\ if\ you\ switch\ your\ inputs\ for\ topLeftX,\ and\ bottomRightX\ the\ image\ will\ be\ flipped\ horizontilly,\r\n\ if\ you\ do\ the\ same\ with\ the\ topLeftY\ and\ bottomRightY\ the\ image\ will\ be\ flipped\ vertically.\ The\ width\r\n\ and\ height\ are\ the\ dimesions\ of\ the\ returned\ image.\r\n
+comment2.params=clss
+comment2.target=greenfoot.Actor\ getAnIntersectingObject(java.lang.Class)
+comment2.text=\r\n\ This\ will\ return\ an\ object\ intersecting\ with\ the\ coloured\ part\ of\ your\ image.\r\n
+comment3.params=spriteSheet\ ID\ spriteCellWidth\ spriteCellHeight\ width\ height
+comment3.target=greenfoot.GreenfootImage\ getSprite(greenfoot.GreenfootImage,\ int,\ int,\ int,\ int,\ int)
+comment3.text=\r\n\ This\ uses\ an\ ID\ where\ 0\ will\ be\ the\ first\ image\ on\ the\ sheet.\ The\ spriteCellWidth\ and\ Height\ are\r\n\ the\ dimesions\ of\ each\ individual\ cells\ on\ your\ sprite\ sheet.\ The\ width\ and\ height\ are\ the\ dimesions\r\n\ of\ the\ returned\ image.\r\n
+comment4.params=spriteSheet\ ID\ spriteCellWidth\ spriteCellHeight
+comment4.target=greenfoot.GreenfootImage\ getSprite(greenfoot.GreenfootImage,\ int,\ int,\ int)
+comment4.text=\r\n\ This\ uses\ an\ ID\ where\ 0\ will\ be\ the\ first\ image\ on\ the\ sheet.\ The\ spriteCellWidth\ and\ Height\ are\r\n\ the\ dimesions\ of\ each\ individual\ cells\ on\ your\ sprite\ sheet.\r\n
+comment5.params=spriteSheet\ ID\ blockWidth
+comment5.target=greenfoot.GreenfootImage\ getSprite(greenfoot.GreenfootImage,\ int,\ int)
+comment5.text=\r\n\ This\ uses\ an\ ID\ where\ 0\ will\ be\ the\ first\ image\ on\ the\ sheet.\r\n\ The\ block\ width\ is\ the\ width\ of\ a\ SQUARE\ block\ on\ the\ sheet,\r\n\ the\ returned\ image\ will\ also\ be\ a\ SQUARE\ block.\r\n
+numComments=6

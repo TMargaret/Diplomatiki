@@ -25,7 +25,7 @@ public class Door extends Actor
      */
     public void act() 
     {
-        canSeeRobot();
+        canSeeAlex();
     } 
 
     protected void addedToWorld(World w)
@@ -38,7 +38,7 @@ public class Door extends Actor
         getWorld().addObject(hs, getX(), getY()); 
     }
 
-    public void canSeeRobot(){
+    public void canSeeAlex(){
         if( hs.getWorld() != null ) {   
             List<Actor> things = hs.getHitBoxIntersections();    
             if( things.size() > 1 ) {      
@@ -47,7 +47,7 @@ public class Door extends Actor
                     Actor a = things.get(i);        
                     if(a instanceof HiddenSprite)        
                         continue;        
-                    if( a instanceof Robot) {  
+                    if( a instanceof Alex) {  
                         counter--;
                         if (Greenfoot.isKeyDown("e")){
                             isEDown = true;
