@@ -2,7 +2,7 @@ import greenfoot.*;
 import java.util.List; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Alex here.
+ * 
  * 
  * @author (Margaret) 
  * @version (a version number or a date)
